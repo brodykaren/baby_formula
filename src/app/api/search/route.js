@@ -24,21 +24,34 @@ return NextResponse.json ({
 
 }
 
-export const POST = async () => {
-    try {
-    const user = await prisma.user.create({
+export const POST = async (req) => {
+    try { 
+        const placesapiurl = "https://places.googleapis.com/v1/places:searchText"
+        const placesapikey = process.env.GOOGLE_PLACES_API_KEY
+        const placesfieldmask = "*"
+        
+        const body = await req.json ()
+    const search = await prisma.search.create({
+
         data: {
-         email:'test@test.com'
+        
+            text: body.search.text,
+            user: {
+                connect:{
+                    id: body.user.id
+                }
+            }
 
         }, 
             select:{
             id: true,
-            email:true
+            text:true, 
+            createdAt: true,
         }
     })
     return NextResponse.json ({
         success: true,
-        data: user
+        data: search,
     })
     } catch (error) { 
         console.log (error)

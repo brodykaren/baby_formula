@@ -99,6 +99,70 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.homepage-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.homepage-title{
+
+  padding: 0.5rem 2.5rem;
+  border: 2px solid black;
+  align-content: center;
+
+}
+
+.homepage-introduction{
+
+  padding-top: 5rem;
+  padding-bottom:5rem;
+  align-items: center;
+  padding-left: 40rem;
+
+}
+
+.p{
+
+  padding-bottom:5px;
+}
+
+
+.homepage-images{
+
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.homepage-images-img{
+
+  width: 15rem;
+  aspect-ratio: 9/16;
+}
+
+.homepage-images-img img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.sign-in {
+padding: 0.5rem 1.5rem; 
+border: 2px solid black;
+align-self: center;
+
+
+}
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   html {
