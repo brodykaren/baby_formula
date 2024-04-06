@@ -92,6 +92,13 @@ body {
   background-image: url(/app-pics/background.jpg);
 }
 
+.app {
+  overflow: scroll;
+  height: 100vh;
+
+  padding-bottom: 5rem;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -157,7 +164,18 @@ align-self: center;
 
 }
 
+.results-data {
+  margin: 2.5rem 0;
+}
 
+.results-data-item-image {
+  width: 12.5rem;
+}
+
+.results-data-item-image img {
+  width: 100%;
+  object-fit: contain;
+}
 
 
 

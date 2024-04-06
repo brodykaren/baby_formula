@@ -49,7 +49,7 @@ export default () => {
     const renderResults = () => {
         console.log("Results: ", results);
 
-        return results.map((result) => {
+        return results.map((result, i) => {
             return (
                 <div key={result.name} className="results-data">
                     <div>
@@ -60,8 +60,8 @@ export default () => {
                     </div>
                     <div>
                         {result?.photos?.length > 0 &&
-                        <div>
-                            <img src={`https:${result?.photos[0]?.authorAttributions[0]?.photoUri}`} alt="" />
+                        <div className="results-data-item-image">
+                            <img src={`/app-pics/apic-${(i % 9) + 2}.png`} alt="" />
                         </div>
                         }
                     </div>
