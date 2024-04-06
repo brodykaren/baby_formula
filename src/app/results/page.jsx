@@ -48,9 +48,7 @@ export default () => {
 
     const renderResults = () => {
         console.log("Results: ", results);
-        if(results[0]) {
-        console.log("Photo uri:", results[0].photos[0].authorAttributions[0].photoUri)
-        }
+
         return results.map((result) => {
             return (
                 <div key={result.name} className="results-data">
