@@ -1,4 +1,24 @@
+"use client";
+
+import { nanoid } from "nanoid";
+import { useSearchParams } from "next/navigation"
+import Link from "next/link";
+
 export default () => {
+  const searchParams = useSearchParams();
+
+  if(!searchParams.get("name")) {
+    return (
+      <div>
+        <header>
+          <h2>You must select a product to check out.</h2>
+        </header>
+        <div>
+          <Link href="/search">Search for Products</Link>
+        </div>
+      </div>
+    )
+  }
     return (
      <div>
         <div>
@@ -17,7 +37,8 @@ export default () => {
         </div>
 
         <div>
-          <p>Confirmation Number</p>
+          <h3>You Purchased from {searchParams.get("name")}</h3>
+          <p>Confirmation Number: {nanoid()}</p>
 
         </div>  
         </div>
