@@ -45,22 +45,22 @@ export default function Home() {
 
       <div className="homepage-images">
         <div className="homepage-images-img">
-          <img src="formulapic1.jpeg" alt="" />
+          <img src="apic-2.png" alt="" />
         </div>
         <div className="homepage-images-img">
-          <img src="formulapic1.jpeg" alt="" />
+          <img src="apic-3.png" alt="" />
         </div>
         <div className="homepage-images-img">
-          <img src="formulapic1.jpeg" alt="" />
+          <img src="apic-4.png" alt="" />
         </div>
         <div className="homepage-images-img">
-          <img src="formulapic1.jpeg" alt="" />
+          <img src="apic-5.png" alt="" />
         </div>
         <div className="homepage-images-img">
-          <img src="formulapic1.jpeg" alt="" />
+          <img src="apic-6.png" alt="" />
         </div>
         <div className="homepage-images-img">
-          <img src="formulapic1.jpeg" alt="" />
+          <img src="apic-7.png" alt="" />
         </div>
       </div>
 
