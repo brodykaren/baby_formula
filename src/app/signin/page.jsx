@@ -26,16 +26,31 @@ export default () => {
     }
 
     return (
-        <div>
+
             <div>
-                <div>
-                    <label htmlFor="">email</label>
-                    <input ref={signinemailref} type="text" />
+               <div>
+                <div className="signin-images">
+                    <div className="signin-images-img">
+                        <img src="/app-pics/signin-pic.jpeg" alt="" />
+                    </div>
                 </div>
+
                 <div>
-                    <button onClick={handlesubmitsignin}>submit</button>
-                </div>
-            </div>
-        </div>
-    )
-}
+                   <h2>Please Sign in before searching!</h2>
+               </div>
+
+                    <div>
+                        <div>
+                            <div>
+                                <label htmlFor="">email</label>
+                                <input ref={signinemailref} type="text" />
+                            </div>
+                            <div>
+                                <button onClick={handlesubmitsignin}>Sign In</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    )
+ }

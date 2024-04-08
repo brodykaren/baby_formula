@@ -10,14 +10,17 @@ export default () => {
   return (
     <div>
       <div>
-\
+\ 
+      <div>
+        <h1 className="homepage-title"></h1>
+      </div>
         <div>
           <h1 className="search-title">Locating your Baby Formula Easily</h1>
         </div>
         <div>
-          <div className="search-intro">
-            <h2 className="search-page">Search</h2>
-          </div>
+          {/* <div className="search-intro">
+            <h2 className="search-page"></h2>
+          </div> */}
         </div>
       </div>
       <div className="searchpage-main">

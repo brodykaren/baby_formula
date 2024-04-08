@@ -147,7 +147,7 @@ a {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  font-size: 3rem;
+  font-size: 10rem;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -235,8 +235,8 @@ header page
 ==========================*/
 
 .header-logo {
-  width: 30rem;
-  height: 30rem;
+  width: 17rem;
+  height: 17rem;
   overflow: hidden;
 }
 
