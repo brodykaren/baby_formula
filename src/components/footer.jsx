@@ -1,5 +1,5 @@
 export default () => {
     return (
-        <footer>&copy; 2024 Karen Brody Baby Formula App</footer>
+        <footer className="footer-end">&copy; 2024 Karen Brody Baby Formula App</footer>
     )
 }

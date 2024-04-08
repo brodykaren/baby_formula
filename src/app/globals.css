@@ -73,6 +73,11 @@
   }
 }
 
+/*==========================
+Basic Styling
+==========================*/
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -143,12 +148,20 @@ a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   font-size: 3rem;
+  padding-left: 20px;
+  padding-right: 20px;
 }
  
 .h2 {
 
 font-size: 10rem;
+text-align: center;
 }
+
+
+/*==========================
+home page
+==========================*/
 
 .homepage-images{
 
@@ -161,7 +174,7 @@ font-size: 10rem;
 
 .homepage-images-img{
 
-  width: 16rem;
+  width: 12rem;
   aspect-ratio: 9/16;
 }
 
@@ -172,6 +185,10 @@ object-fit: cover;
 
 }
 
+/*==========================
+Sign in page
+==========================*/
+
 .sign-in {
 padding: 0.5rem 1.5rem; 
 border: 2px solid black;
@@ -180,6 +197,11 @@ padding-top: 20px;
 
 
 }
+
+
+/*==========================
+Results page
+==========================*/
 
 .results-data {
   margin: 2.5rem 0;
@@ -208,9 +230,13 @@ padding-top: 20px;
   overflow: scroll;
 }
 
+/*==========================
+header page
+==========================*/
+
 .header-logo {
-  width: 5rem;
-  height: 5rem;
+  width: 30rem;
+  height: 30rem;
   overflow: hidden;
 }
 
@@ -219,6 +245,10 @@ padding-top: 20px;
   height: 100%;
   object-fit: contain;
 }
+
+/*==========================
+search page
+==========================*/
 
 .searchpage-main {
   width: 100vw;
@@ -238,12 +268,30 @@ padding-top: 20px;
   object-fit: contain;
 }
 
+.search-title {
 
-.footer {
+  color:#92278f;
 
-  background-color: #364F91;
 }
 
+/*==========================
+footer
+==========================*/
+
+.footer-end {
+
+  background-color: #364F91;
+    text-align: center;
+    padding: 2%;
+    margin: 2% auto;
+    font-size: 1.25em;
+}
+
+
+
+/*==========================
+Media Queries
+==========================*/
 
 /* Media Queries - Phone, Tablet */
 @media screen and (max-width: 1024px) {

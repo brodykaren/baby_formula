@@ -12,7 +12,7 @@ export default () => {
       <div>
 \
         <div>
-          <h1 className="search-title">Baby Formula Application</h1>
+          <h1 className="search-title">Locating your Baby Formula Easily</h1>
         </div>
         <div>
           <div className="search-intro">
@@ -31,7 +31,7 @@ export default () => {
         ref={searchref}
       />
       <div>
-        <button onClick={handlessearchresults} className="click">Click</button>
+        <button onClick={handlessearchresults} className="click">Here</button>
 
       </div>
       </div>
