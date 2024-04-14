@@ -100,6 +100,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-image: url(/app-pics/background.jpg);
+  display: flex;
 }
 
 .app {
@@ -130,6 +131,7 @@ a {
   border: 2px solid;
   align-content: center;
   background-color: #364F91;
+  font-family: thrillers;
 
 
 }
@@ -139,7 +141,7 @@ a {
   padding-top: 5rem;
   padding-bottom:5rem;
   align-items: center;
-  padding-left: 40rem;
+  
   color: #92278f;
   font-family:fantasy;
   text-align: center;
@@ -161,6 +163,7 @@ a {
 
 font-size: 10rem;
 text-align: center;
+font-family: thrillers, sans-serif;
 }
 
 
@@ -366,6 +369,7 @@ search page
 .searchpage-images-img {
   width: 50vw;
   min-width: 250px;
+  align-items: center;
 }
 
 .searchpage-images-img img {
@@ -376,6 +380,7 @@ search page
 .search-title {
 
   color:#92278f;
+  font-family: t;
 
 }
 
@@ -402,14 +407,24 @@ Media Queries
 @media screen and (max-width: 1024px) {
  /* Any styles in here for large tablet */
 }
+.homepage-image {
+
+  flex-direction: column;
 
 @media screen and (max-width: 767px) {
  /* Any styles in here for small tablet */
 }
+.homepage-image {
+
+  flex-direction: column;
 
 @media screen and (max-width: 480px) {
  /* Any styles in here for phone */
  .searchpage-main {
   flex-direction: column-reverse;
+ }
+ .homepage-image {
+
+  flex-direction: column;
  }
 }
