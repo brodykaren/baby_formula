@@ -1,6 +1,19 @@
 "use client"
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
+import Navbar from "./components/navbar";
 
+function App() {
+return (
+
+  <React.Fragment>
+    <Navbar/>
+  </React.Fragment>
+);
+
+export default App;
+
+
+}
 export default function Home() {
   const signinemailref = useRef(null)
   const [showsignin, setshowsignin] = useState(false)
