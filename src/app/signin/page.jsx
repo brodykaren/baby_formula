@@ -27,18 +27,17 @@ export default () => {
 
     return (
 
-            <div>
+            <div className="container">
                <div>
+                   <h2>Please Sign In Before Searching your Baby Formula</h2>
+               </div>
                 <div className="signin-images">
                     <div className="signin-images-img">
                         <img src="/app-pics/signin-pic.jpeg" alt="" />
                     </div>
-                </div>
-
-                <div>
-                   <h2>Please Sign in before searching!</h2>
-               </div>
-
+                
+             
+             </div>
                     <div>
                         <div>
                             <div>
@@ -50,7 +49,9 @@ export default () => {
                             </div>
                         </div>
                     </div>
-
-
-                    )
- }
+                />
+                
+                </div>
+                
+                    );
+                }

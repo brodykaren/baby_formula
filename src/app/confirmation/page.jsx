@@ -28,7 +28,7 @@ export default () => {
       </div>
       <div>
         <div className="confirmation-intro">
-          <h2 class="confirmation-page">Confirmation</h2>
+          <h2 class="confirmation-page">We appreciate you using the Baby Formula App! You can pick up the order at the address listed below.</h2>
         </div>
         </div>
      

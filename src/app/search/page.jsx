@@ -45,7 +45,9 @@ export default () => {
         </div>
 
         <div>
-          <p></p>
+          <h3> Nutritional Information</h3>
+          <p>The way you decide to feed your baby will have an impact on you both. The human milk that nature has designed for newborns is breast milk. It remains the best option when compared to all other infant formulas ever created. If you are unable to obtain it, your child can still get enough nutrients from commercial formulas that have been fortified with iron. 
+            Infant formulas have enough protein, calories, fat, vitamins, and minerals to support the healthy growth of your beautiful baby.</p>
 
         </div>
 

@@ -145,6 +145,7 @@ a {
   color: #92278f;
   font-family:fantasy;
   text-align: center;
+  padding: 0 auto;
 
 }
 
@@ -161,14 +162,25 @@ a {
  
 .h2 {
 
-font-size: 10rem;
+font-size: 12rem;
 text-align: center;
 font-family: thrillers, sans-serif;
+color: #92278f;
 }
 
+.h3 {
+  font-size: 10rem;
+  text-align: center;
+  font-family: thrillers, sans-serif;
 
+}
 
+.container {
 
+  width: 70%;
+  margin: 0 auto;
+ 
+}
 
 
 
@@ -190,7 +202,7 @@ home page
 
 .homepage-images-img{
 
-  width: 12rem;
+  width: 14rem;
   aspect-ratio: 9/16;
 }
 
@@ -211,8 +223,18 @@ border: 2px solid black;
 align-self: center;
 padding-top: 20px;
 
+}
+
+.signin-images {
+
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
 
 }
+
+
 
 
 /*==========================
@@ -395,7 +417,11 @@ footer
     padding: 2%;
     margin: 2% auto;
     font-size: 1.25em;
-    
+    margin-top: 100px;
+    padding: 30px 0;
+    clear: both;
+    padding: 30px 0;
+
 }
 
 
