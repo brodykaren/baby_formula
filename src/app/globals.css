@@ -424,6 +424,102 @@ footer
 
 }
 
+.footerIcons {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100vh;
+background-color:hover #92278f;
+cursor: pointer;
+}
+
+.ap_footer_school {
+
+display:flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+text-align: left;
+
+
+
+}
+
+
+.p_footer_school p{
+
+font-size: 12px;
+line-height: 15px;
+margin-bottom:  0.9rem;
+
+
+}
+
+
+
+
+.p_footer_school h4{
+
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 0.9rem;
+  color: #fff;
+
+
+}
+
+
+.footerIcons p{
+
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom:  0.9rem;
+  color: #fff;
+
+}
+
+
+.icon {
+ height: 50px;
+ width: 60px;
+
+}
+
+.home {
+
+  color:#92278f;
+}
+
+.shopping{
+
+  color:#92278f;
+}
+
+.coupon {
+
+  color:#92278f;
+
+}
+  .facebook:hover { 
+color:#92278f;
+  }
+
+.instagram:hover {
+
+  color: #92278f;
+
+  }
+
+
+
+
+
+
+
+
 
 
 /*==========================

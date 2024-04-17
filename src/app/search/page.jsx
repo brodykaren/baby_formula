@@ -27,7 +27,7 @@ export default () => {
 
       <div className="searchpage-search">
         <div>
-          <h2>Select Your Baby Formula</h2>
+          <h2>Select Your Baby Formula with Location</h2>
         </div>
       <textarea
         placeholder="search your baby formula"
