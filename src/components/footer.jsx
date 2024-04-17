@@ -11,24 +11,6 @@ export default () => {
             <div className="footerIcons">
                 <div className="ap_footer_school">
                     <h4>Baby Formula App</h4>
-                    <a href="/">
-                        <p>Contact us</p>
-                    </a>
-                    <a href="/">
-                        <p>Home</p>
-                    </a>
-                    <a href="/">
-                        <p>Shopping</p>
-                    </a>
-                    <a href="/">
-                        <p>Coupon</p>
-                    </a>
-                    <a href="/">
-                        <p>Facebook</p>
-                    </a>
-                    <a href="/">
-                        <p>Instagram</p>
-                    </a>
 
 
                     <div className="footerIcons">
