@@ -149,6 +149,14 @@ a {
 
 }
 
+.homepage-p {
+  padding: 0 2.5rem;
+}
+
+.homepage-signin {
+  padding: 0 2.5rem;
+}
+
 .p{
 
   padding-bottom:5px;
@@ -196,8 +204,10 @@ home page
   display: flex;
   align-items: center;
   gap: 2.5rem;
+  padding: 0 2.5rem;
   padding-top: 5rem;
   padding-bottom: 8rem;
+
 }
 
 .homepage-images-img{
@@ -298,6 +308,26 @@ padding: 0 2rem;
 Nav
 ==========================*/
 
+.header-nav {
+
+  position: fixed;
+  top:calc(100% + 3.5rem);
+  left:0;
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #92278f;
+  transition: 1s;
+  transform: translateY(-100vh);
+
+}
+
+
+
 .nav a{
 
 margin: 0 2rem;
@@ -328,31 +358,12 @@ header .nav-btn {
 }
 
 
-@media only screen and ( max-width 1024px) {
+@media only screen and ( max-width: 1024px) {
 
   header .nav-btn {
     visibility: visible;
     opacity: 1;
   }
-
-
-header nav {
-
-  position: fixed;
-  top:0;
-  left:0;
-  height:100%;
-  width:100%;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  background-color: #92278f;
-  transition: 1s;
-  transform: translateY(-100vh);
-
-}
  .header .responsive-nav{
 
   transform: none;
@@ -414,14 +425,12 @@ footer
 
   background-color: #364F91;
     text-align: center;
-    padding: 2%;
+    padding: 2.5rem 1.75rem;
     margin: 2% auto;
     font-size: 1.25em;
     margin-top: 100px;
-    padding: 30px 0;
     clear: both;
-    padding: 30px 0;
-
+    min-height: max-content;
 }
 
 .footerIcons {
@@ -533,6 +542,44 @@ Media Queries
 .homepage-image {
 
   flex-direction: column;
+}
+
+.sign-in {
+
+flex-direction: column;
+
+}
+
+
+.footerIcons{
+
+flex-direction: column;
+justify-content: left;
+
+}
+
+.footerIcons h4{
+
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.footerIconts p {
+
+font-size: 14px;
+line-height: 20px;
+}
+
+.ap_footer_school {
+
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 1rem;
+
+
+}
+
+
 
 @media screen and (max-width: 767px) {
  /* Any styles in here for small tablet */
@@ -540,14 +587,26 @@ Media Queries
 .homepage-image {
 
   flex-direction: column;
+}
 
 @media screen and (max-width: 480px) {
  /* Any styles in here for phone */
  .searchpage-main {
   flex-direction: column-reverse;
  }
+
+
  .homepage-image {
 
   flex-direction: column;
  }
+
+ .footerIcons {
+
+  font-size:27px;
+  line-height: 38px;
+
+ }
 }
+
+

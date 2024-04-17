@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { useState, useRef } from "react"
+import Navbar from "./navbar";
 
 export default () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,10 +15,10 @@ export default () => {
   }
   return (
     <header className="homepage-header">
-      <div>
+      {/* <div>
         <button onClick={handleShowMenu}>menu</button>
-      </div>
-      <dialog open={showMenu}>
+      </div> */}
+      {/* <dialog open={showMenu}>
         <Link href="/">
           Home
         </Link>
@@ -27,7 +28,8 @@ export default () => {
         <Link href="/signin">
           Signin
         </Link>
-      </dialog>
+      </dialog> */}
+      <Navbar />
       <div className="header-logo">
         <img src="/app-pics/logo-1.jpg" alt="" />
       </div>

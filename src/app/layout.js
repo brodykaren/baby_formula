@@ -14,15 +14,15 @@ export default function RootLayout({ children }) {
         <div className="app">
 
 
-      <Header/>
-      <main>
+          <Header />
+          <main>
 
-     {children}
+            {children}
 
-      </main>
-    
-      <Footer />
-      </div>
+          </main>
+
+          <Footer />
+        </div>
       </body>
     </html>
   );
