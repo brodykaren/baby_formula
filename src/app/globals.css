@@ -285,7 +285,7 @@ Results page
 .results-data-item-image img {
   width: 100%;
   object-fit: contain;
-  justify-self: center;
+  align-items: center;
 }
 
 
@@ -420,13 +420,15 @@ search page
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 2.5rem
+  gap: 2.5rem;
+  padding-left: 70px;
 }
 
 .searchpage-images-img {
   width: 50vw;
-  min-width: 250px;
+  min-width: 280px;
   align-items: center;
+  padding-left: 240px;
 }
 
 .searchpage-images-img img {
@@ -440,10 +442,30 @@ search page
   font-family:thrillers;
   padding-top: 40px;
   padding-bottom: 60px;
-  align-self: center;
+  padding-left: 500px;
 
 }
 
+.nutritional-info {
+
+padding-top: 60px;
+padding-bottom: 60px;
+padding-left: 100px;
+}
+
+
+.nutritional-info p{
+
+font-family: "roboto";
+padding-top: 20px;
+padding-right: 100px;
+
+}
+
+.nutritional-info h3 {
+
+  color: #92278f;
+}
 /*==========================
 footer
 ==========================*/
