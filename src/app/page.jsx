@@ -39,7 +39,7 @@ export default function Home() {
         <div className="homepage-p">
           <p>The Baby Formula App will help you conduct the necessary searches, and with just one click, you'll be able to control the necessary searches and enable you to make a timely purchase.
             Parents who have struggled to get their baby's formula in the past won't have to worry about driving to another supermarket in hopes of finding it.
-            You may find and purchase the infant formula that our babies require by using our App.Purchasing your baby's formula will be easy when you have our help.</p>
+            You may find and purchase the infant formula that our babies require by using our App. Purchasing your baby's formula will be easy when you have our help.</p>
         </div>
       </div>
 
