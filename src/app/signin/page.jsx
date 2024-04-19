@@ -31,15 +31,15 @@ export default () => {
                 <h2>Please Sign In Before Searching your Baby Formula</h2>
             </div>
             <div className="signin-images">
-                <div className="signin-images-img">
-                    <img src="/app-pics/signin-pic.jpeg" alt="" />
+                <div className="signin-img">
+                    <img src="" alt="" />
                 </div>
 
 
             </div>
             <div>
                 <div>
-                    <div>
+                    <div className="signin-box">
                         <label htmlFor="">email</label>
                         <input ref={signinemailref} type="text" />
                     </div>

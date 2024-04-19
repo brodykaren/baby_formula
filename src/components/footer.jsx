@@ -10,7 +10,6 @@ export default () => {
         <div className="footer-end" >
             <div className="footerIcons">
                 <div className="ap_footer_school">
-                    <h4>Baby Formula App</h4>
 
 
                     <div className="footerIcons">
@@ -21,7 +20,9 @@ export default () => {
                         <p>Shop</p>
                         <RiCoupon2Line className="icons coupon" />
                         <p>Coupon</p>
+                        <div className="footer-logo">
                         <img src="/app-pics/logo-2.jpg" alt="" />
+                        </div>
                         <FaFacebook className="icons facebook" />
                         <p>Facebook</p>
                         <FaInstagram className="icons instagram" />
@@ -36,7 +37,7 @@ export default () => {
 
                         <p>University of Florida</p>
                         <p>MMC6950 Capstone Spring 2024</p>
-                        <p>&copy; 2024 Karen Brody Baby Formula App </p>
+                        <p>&copy; 2024 Karen Brody / Baby Formula App </p>
 
                     </div>
                 </div>
