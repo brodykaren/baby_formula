@@ -24,7 +24,7 @@ export default () => {
     return (
      <div>
         <div>
-        <h1 className="confirmation-title">Baby Formula Application</h1>
+        <h1 className="confirmation-title">Order Confirmation</h1>
       </div>
       <div>
         <div className="confirmation-intro">
@@ -38,7 +38,7 @@ export default () => {
          <img src="formulapic1.jpeg" alt="" /> 
         </div>
 
-        <div>
+        <div className="confirmation-number">
           <h3>You Purchased from {searchParams.get("name")}</h3>
           <p>Confirmation Number: {nanoid()}</p>
 

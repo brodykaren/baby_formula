@@ -100,7 +100,7 @@ export default () => {
      return (
         <div>
             <header>
-                <h2>
+                <h2 className="results-title">
                     Results
                 </h2>
             </header>

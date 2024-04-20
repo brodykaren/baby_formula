@@ -87,7 +87,7 @@ Basic Styling
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: thrillers, sans-serif;
+ 
 }
 
 html,
@@ -145,13 +145,10 @@ a {
   color: #92278f;
   text-align: center;
   padding: 0 auto;
+  font-family: "thrillers";
 
 }
 
-.homepage-p {
-  padding: 0 2.5rem;
-  
-}
 
 .homepage-signin {
   padding: 0 2.5rem;
@@ -202,7 +199,7 @@ home page
 
 .homepage-images-img{
 
-  width: 14rem;
+  width: 13rem;
   aspect-ratio: 9/16;
 }
 
@@ -215,13 +212,12 @@ object-fit: cover;
 
 .homepage-p {
 
-font-size: 26px;
+font-size: 23px;
 font-family: "roboto";
-padding-bottom:5px;
+padding-bottom:100px;
 text-align: center;
-padding: 40px;
-padding-left: 40px;
-padding-right: 40px;
+padding-left: 60px;
+padding-right: 60px;
 }
  
 .homepage-signin {
@@ -231,13 +227,6 @@ padding-right: 40px;
 
 }
 
-.homepage-signin:hover {
- cursor: pointer;
- color: #793577;
- 
- 
-}
-
 .sign-in {
 
   background-color: #364F91;
@@ -245,15 +234,37 @@ padding-right: 40px;
   border: #8f318c;
 }
 
+
+.homepage-signin:hover {
+  cursor: pointer;
+  color: #793577;
+}
 /*==========================
 Sign in page
 ==========================*/
 
+.signin-title {
+
+  color: #793577;
+  padding-top: 80px;
+  align-content: center;
+
+
+}
+
+.container-signin {
+
+width: 500px;
+margin: 0 auto;
+
+
+}
+
 .sign-in {
-padding: 0.5rem 1.5rem; 
-border: 2px solid black;
+padding: 0.6rem 1.9rem; 
+border: 3px solid black;
 align-self: center;
-padding-top: 20px;
+padding-top: 40px;
 
 }
 
@@ -262,19 +273,22 @@ padding-top: 20px;
 
 .signin-img {
 
-  display: flex;
+  display: block;
   align-items: center;
   padding-top: 5rem;
   padding-bottom: 8rem;
-  max-width: 100px;
-  max-height: 150px;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
   
 
 }
 
 .signin-box {
 
-  box-sizing: 20px;
+  box-sizing: 80px;
+  justify-self: center;
+  padding-bottom: 15px;
+  width: 200px;
 }
 
 
@@ -312,6 +326,15 @@ Results page
 
 .results-data {
   overflow: scroll;
+}
+
+
+
+.results-title {
+
+  color: #793577;
+  align-items: center;
+  padding-top: 40px;
 }
 
 /*==========================
@@ -390,7 +413,7 @@ header .nav-btn {
   color:#92278f;
   visibility: hidden;
   opacity: 0;
-  font-size: 1.8rem;
+  font-size: 30px;
 }
 
 
@@ -478,6 +501,50 @@ padding-right: 100px;
 
   color: #92278f;
 }
+
+/*==========================
+Confirmation page
+==========================*/
+
+
+.confirmation-title{
+
+color:#793577;
+padding-top: 80px;
+align-content: center;
+padding-bottom: 200px;
+padding-left: 500px;
+
+}
+
+.confirmation-page{
+
+  font-family: "roboto";
+  padding-left: 100px;
+}
+
+
+.confirmation-number {
+
+  font-family: "roboto";
+}
+
+
+.confirmation-number p {
+
+
+  font-size:x-large;
+}
+
+
+
+
+
+
+
+
+
+
 /*==========================
 footer
 ==========================*/
