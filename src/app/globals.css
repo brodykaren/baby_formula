@@ -101,7 +101,6 @@ body {
   width: 100vw;
   height: 100vh;
   background-image: url(/app-pics/background.jpg);
-  display: flex;
   min-height: 100%;
 }
 
@@ -279,7 +278,10 @@ padding-top: 40px;
 
 }
 
-
+.signin:hover {
+  cursor: pointer;
+  color: #793577;
+}
 
 
 .signin-img {
@@ -339,6 +341,7 @@ Results page
 
 .results-data {
   overflow: scroll;
+  padding-left: 600px;
 }
 
 
@@ -347,7 +350,9 @@ Results page
 
   color: #793577;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 60px;
+  padding-left: 630px;
+  padding-bottom: 60px;
 }
 
 /*==========================
@@ -580,7 +585,7 @@ footer
 
 .footerIcons {
   margin-top: auto;
-  display:flex !important;
+  display:flex;
   flex-direction: row;
   justify-content: space-between;
   text-decoration: none;
@@ -722,10 +727,16 @@ line-height: 28px;
 
 @media screen and (max-width: 767px) {
  /* Any styles in here for small tablet */
-}
+
 .homepage-image {
 
-  flex-direction: column;
+  min-width: fit-content;
+}
+
+.footer-end {
+
+  align-items: center;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -742,8 +753,7 @@ line-height: 28px;
 
  .footerIcons {
 
-  font-size:27px;
-  line-height: 38px;
+  display: none;
 
  }
 }

@@ -40,7 +40,7 @@ export default () => {
             <div>
                 <div>
                     <div className="signin-box">
-                        <label htmlFor="">email</label>
+                        <label htmlFor="">Email</label>
                         <input ref={signinemailref} type="text" />
                     </div>
                     <div>
