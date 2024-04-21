@@ -28,14 +28,14 @@ export default () => {
       </div>
       <div>
         <div className="confirmation-intro">
-          <h2 class="confirmation-page">We appreciate you using the Baby Formula App! You can pick up the order at the address listed below.</h2>
+          <h2 class="confirmation-page">We appreciate you using the Baby Formula App! You can pick up the order Now.</h2>
         </div>
         </div>
      
 
       <div className="homepage-images">
         <div className="homepage-images-img">
-         <img src="formulapic1.jpeg" alt="" /> 
+         <img src="/app-pics/confimation-pg.jpg" alt="" /> 
         </div>
 
         <div className="confirmation-number">

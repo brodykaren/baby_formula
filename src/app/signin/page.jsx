@@ -28,7 +28,7 @@ export default () => {
     return (
         <div className="container-signin">
             <div className="signin-title">
-                <h2>Please Sign In Before Searching your Baby Formula</h2>
+                <h2>Please "Sign In" before searching your baby formula</h2>
             </div>
             <div className="signin-images">
                 <div className="signin-img">

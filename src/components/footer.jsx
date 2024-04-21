@@ -14,15 +14,15 @@ export default () => {
 
                     <div className="footerIcons">
 
+
+
+
                         <LuHome className="icons home" />
                         <p>Home</p>
                         <LuShoppingCart className="icons shopping" />
                         <p>Shop</p>
                         <RiCoupon2Line className="icons coupon" />
                         <p>Coupon</p>
-                        <div className="footer-logo">
-                        <img src="/app-pics/logo-2.jpg" alt="" />
-                        </div>
                         <FaFacebook className="icons facebook" />
                         <p>Facebook</p>
                         <FaInstagram className="icons instagram" />
@@ -37,12 +37,10 @@ export default () => {
 
                         <p>University of Florida</p>
                         <p>MMC6950 Capstone Spring 2024</p>
-                        <p>&copy; 2024 Karen Brody / Baby Formula App </p>
-
+                        <p>&copy; 2024 Karen L Brody / Baby Formula App </p>
                     </div>
                 </div>
             </div>
-
         </div>
 
     )
