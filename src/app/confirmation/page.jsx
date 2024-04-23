@@ -33,7 +33,7 @@ export default () => {
         </div>
      
 
-      <div className="homepage-images">
+      <div className="confirmation-image">
         <div className="homepage-images-img">
          <img src="/app-pics/confimation-pg.jpg" alt="" /> 
         </div>

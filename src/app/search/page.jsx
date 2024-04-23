@@ -29,12 +29,15 @@ export default () => {
         <div>
           <h2>Select Your Baby Formula with Location</h2>
         </div>
+        <div className="search-placeholder">
       <textarea
         placeholder="search your baby formula"
         ref={searchref}
       />
-      <div>
+      <div className="button-search">
         <button onClick={handlessearchresults} className="click">Here</button>
+
+        </div>
 
       </div>
       </div>

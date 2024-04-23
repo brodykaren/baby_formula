@@ -101,7 +101,7 @@ export default () => {
         <div>
             <header>
                 <h2 className="results-title">
-                    Results
+                    Please Select your Baby Formula and Location!
                 </h2>
             </header>
 

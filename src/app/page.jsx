@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       <div>
         <div className="homepage-introduction">
-          <h2>Buy Baby Formula Should be Easy!</h2>
+          <h2>Buying Baby Formula Needs to Be Simple!</h2>
         </div>
         <div className="homepage-p">
           <p>The Baby Formula App will help you conduct the necessary searches, and with just one click, you'll be able to control the necessary searches and enable you to make a timely purchase.
@@ -42,7 +42,7 @@ export default function Home() {
             You may find and purchase the infant formula that our babies require by using our App. Purchasing your baby's formula will be easy when you have our help.</p>
         </div>
       </div>
-
+      <div className="grow-img">
       <div className="homepage-images">
         <div className="homepage-images-img">
           <img src="/app-pics/apic-2.png" alt="" />
@@ -63,7 +63,7 @@ export default function Home() {
           <img src="/app-pics/apic-7.png" alt="" />
         </div>
       </div>
-
+      </div>
       <div className="homepage-signin">
         <Link href="/signin" className="sign-in">Sign In</Link>
       </div>

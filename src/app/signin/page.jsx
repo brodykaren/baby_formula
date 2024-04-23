@@ -28,7 +28,7 @@ export default () => {
     return (
         <div className="container-signin">
             <div className="signin-title">
-                <h2>Please "Sign in" before searching your baby formula.</h2>
+                <h2>Before you begin searching for your baby formula, please "Sign in"</h2>
             </div>
             <div className="signin-images">
                 <div className="signin-img">
@@ -43,7 +43,7 @@ export default () => {
                         <label htmlFor="">Email</label>
                         <input ref={signinemailref} type="text" />
                     </div>
-                    <div>
+                    <div className="singin-box">
                         <button onClick={handlesubmitsignin}>Sign In</button>
                     </div>
                 </div>

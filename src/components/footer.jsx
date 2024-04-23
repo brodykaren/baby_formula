@@ -17,7 +17,7 @@ export default () => {
 
 
 
-                        <LuHome className="icons home" />
+                        <LuHome className="icons home" /> 
                         <p>Home</p>
                         <LuShoppingCart className="icons shopping" />
                         <p>Shop</p>
