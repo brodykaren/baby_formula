@@ -176,6 +176,7 @@ color: #92278f;
  
   min-height: 100%;
   overflow: auto;
+  position: relative;
  
 }
 
@@ -632,7 +633,7 @@ font-size: 33px;
 }
 
 .confirmation-page{
-
+ 
   font-family: "roboto";
   padding-left: 360px;
   font-size: 20px;
@@ -667,6 +668,7 @@ font-size: 33px;
   padding-top: 200px;
   padding-top: 20px;
   padding-bottom: 50px;
+ 
 }
 
 
@@ -689,6 +691,7 @@ footer
   align-items: center;
   font-size: 12px;
   margin: 2% auto;
+
 
 
 }
@@ -733,7 +736,7 @@ footer
    
    .coupon {
    
-     color:#ffff;
+     color:#fff;
    
    }
      .facebook:hover { 
@@ -747,7 +750,7 @@ footer
      }
      
      .home:hover {
-    color:#8f318c
+    color:#793577;
 
      }
 
@@ -766,7 +769,7 @@ footer
       font-size: 20px;
       width: 100%;
       color: #fff;
-      background-color: #364F91;
+      background-color:#364F91;
       display: flex;
       flex-direction: row;
       align-items: flex-start;
@@ -838,6 +841,7 @@ line-height: 28px;
 
 
 
+
 @media screen and (max-width: 767px) {
  /* Any styles in here for small tablet */
 
@@ -868,6 +872,31 @@ line-height: 28px;
   display:none;
  }
 
+
+ .confirmation-title {
+  padding-left: 190px; 
+  padding-top: 150px;
+  font-size: 35px;
+}
+
+.confirmation-page {
+padding-top: -20px;
+padding-bottom:150px;
+padding-left:100px;
+font-size: 29px;
+
+}
+
+.confirmation-image{
+  flex-direction: column-reverse;
+  padding-left: 180px;
+  width: 200%;
+  padding-top: 10px;
+ 
+
+}
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -892,18 +921,76 @@ line-height: 28px;
   flex-direction: column;
  }
 
+
+ .signin-box {
+ 
+  
+  justify-content:center;
+  flex-direction: column-reverse;
+  padding-left: 100px;
+  
+ }
+
+
+ .signin-title{
+  
+  font-size: 20px;
+
+ }
+ 
+ .results-title{
+ 
+display: flex;
+justify-content:center;
+
+ }
+
+.results-data {
+
+  flex-direction: column-reverse;
+  padding-left: 100px;
+}
+
+.results-title {
+
+  padding-left: 100px;
+
+}
+
+
+.confirmation-title {
+  padding-left: 100px; 
+  padding-top: 150px;
+}
+
+.confirmation-intro {
+  display:none;
+}
+
+.confirmation-image{
+  flex-direction: column-reverse;
+  padding-left: 100px;
+  width: 200%;
+  padding-top: 10px;
+
+}
+
+
  .footerIcons {
 
   display: none;
 
  }
-
  .searchpage-images-img {
 
-  height: 100px;
-  width: 100px;
+  display: none;
+
  }
 
+
+ .h2 {
+  display: none;
+ }
 .nutritional-info {
 
   display:none;
