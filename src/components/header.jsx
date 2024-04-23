@@ -34,7 +34,7 @@ export default () => {
         <img src="/app-pics/logo-1.jpg" alt="" />
       </div>
       <div>
-        <div>
+        <div className="header-search">
           search
         </div>
         <div>

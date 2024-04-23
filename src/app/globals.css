@@ -217,13 +217,12 @@ object-fit: cover;
 
 .grow-img{
 
+  opacity:0.5;
   transition: 1s ease;
 }
 
 .grow-img:hover{
--webkit-transform: scale(1.2);
--ms-transform:scale(1.2);
-transform: scale(1.2);
+opacity:1;
 transition: 1s ease;
 
 }
@@ -426,6 +425,15 @@ height: 160px;
 padding: 0 4rem;
 }
 
+.header-search {
+
+color:#793577;
+border: #793577;
+font-size: medium;
+
+
+}
+
 
 /*==========================
 Nav
@@ -619,7 +627,7 @@ padding-top: 80px;
 align-content: center;
 padding-bottom: 200px;
 padding-left: 580px;
-font-size: 30px;
+font-size: 33px;
 
 }
 
@@ -795,6 +803,7 @@ Media Queries
 .homepage-image {
 
   flex-direction: column;
+  size: 10px;
 }
 
 .sign-in {
@@ -841,6 +850,24 @@ line-height: 28px;
 
   align-items: center;
 }
+
+.homepage-signin {
+  font-size: 1.8rem;
+  display: flex;
+  flex-wrap:wrap;
+  padding-left: 350px;
+ }
+ .homepage-signin button:hover{
+
+  color: #8f318c;
+  cursor: pointer;
+ }
+
+ .footerIcons p {
+
+  display:none;
+ }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -849,6 +876,16 @@ line-height: 28px;
   flex-direction: column-reverse;
  }
 
+  .logo-1 {
+    height: fit-content;
+
+  }
+ .homepage-signin {
+  font-size: 2rem;
+  display: inline;
+  padding-left:190px;
+  color: #8f318c;
+ }
 
  .homepage-image {
 
@@ -860,6 +897,18 @@ line-height: 28px;
   display: none;
 
  }
+
+ .searchpage-images-img {
+
+  height: 100px;
+  width: 100px;
+ }
+
+.nutritional-info {
+
+  display:none;
+}
+
 }
 
 
