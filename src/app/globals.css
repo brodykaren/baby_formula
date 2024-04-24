@@ -133,6 +133,7 @@ a {
   align-content: center;
   background-color: #364F91;
   font-family: "thrillers";
+  padding-bottom: 30px;
 
 
 }
@@ -219,12 +220,12 @@ object-fit: cover;
 .grow-img{
 
   opacity:0.5;
-  transition: 1s ease;
+  transition: 0.1s ease;
 }
 
 .grow-img:hover{
 opacity:1;
-transition: 1s ease;
+transition: 0.1s ease;
 
 }
 
@@ -841,9 +842,13 @@ line-height: 28px;
 
 
 
-
 @media screen and (max-width: 767px) {
  /* Any styles in here for small tablet */
+
+
+ .grow-img {
+  display: none;
+ }
 
 .homepage-image {
 
@@ -905,10 +910,19 @@ font-size: 29px;
   flex-direction: column-reverse;
  }
 
+
   .logo-1 {
     height: fit-content;
 
   }
+
+  .grow-img {
+  
+
+    display: none;
+
+  }
+
  .homepage-signin {
   font-size: 2rem;
   display: inline;
