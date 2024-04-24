@@ -7,4 +7,6 @@ I am a mother of three children. I live in Islamorada, in the Florida Keys. For 
 I had difficulties during the development process with the deployment and the database as a whole. Fixing certain coding and stylistic problems was particularly challenging. 
 Up to the very last minute, my local server displayed my home page with the padding and title looking OK, but the live website had issues. 
 Another issue I was unable to resolve was my footer. I have attempted every solution known to man and will continue to try to determine why it is not scrolling to the bottom of the page. 
-Aside from that, I think the baby app is serving its function, and it gives me tremendous joy to see an idea that is opening up new possibilities for the future. Thank you!
+Aside from that, I think the baby app is serving its function, and it gives me tremendous joy to see an idea that is opening up new possibilities for the future.
+To use the Baby Formula App, you need to sign in with your email, after that, you will be directed to the search/shop page.  Then you can choose the location and order the product that you need. 
+Thank you!
