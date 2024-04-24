@@ -221,17 +221,7 @@ object-fit: cover;
 
 }
 
-.grow-img{
 
-  opacity:0.5;
-  transition: 0.1s ease;
-}
-
-.grow-img:hover{
-opacity:1;
-transition: 0.1s ease;
-
-}
 
 .homepage-p {
 
@@ -404,6 +394,7 @@ Results page
   padding-left: 440px;
   padding-bottom: 60px;
   font-size: 30px;
+  font-family: "thrillers";
 }
 
 /*==========================
